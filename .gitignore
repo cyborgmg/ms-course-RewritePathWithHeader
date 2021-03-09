@@ -1,0 +1,13 @@
+hr-worker/target/
+hr-api-gateway-zuul/target/
+hr-config-server/target/
+hr-user/target/
+hr-oauth/target/
+hr-eureka-server/target/
+hr-payroll/target/
+hr-api-gateway-zuul/target
+hr-config-server/target
+hr-eureka-server/target
+hr-oauth/target
+hr-service/target
+hr-user/target
