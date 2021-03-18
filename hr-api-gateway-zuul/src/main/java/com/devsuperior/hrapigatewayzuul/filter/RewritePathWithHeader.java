@@ -27,12 +27,12 @@ public class RewritePathWithHeader extends ZuulFilter {
     @Autowired
     private UrlPathHelper urlPathHelper;
 
+    @Autowired
+    private Environment env;
+
     private Route route;
 
     private String modifiedRequestPath;
-
-    @Autowired
-    private Environment env;
 
     @Override
     public String filterType() {
